@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1759488665 source:c:\users\usuario\desktop\programacion\codeblocks\examenu1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1759488665 source:c:\users\usuario\desktop\nueva carpeta\victoraguilera\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
