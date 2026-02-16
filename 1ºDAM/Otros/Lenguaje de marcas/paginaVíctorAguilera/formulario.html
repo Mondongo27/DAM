@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Souls Index | Forms</title>
+  <meta name="description" content="Submit your personal and gaming information related to Dark Souls.">
+  <meta name="author" content="Víctor Aguilera Rodríguez">
+  <meta name="keywords" content="Dark Souls, Forms, User Data, Feedback">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--HEADER-->
+  <header>
+    <h1>📝 Dark Souls Forms</h1>
+    <p>Submit your information like a true Chosen Undead.</p>
+
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="armas.html">Weapons</a> |
+      <a href="jefes.html">Bosses</a> |
+      <a href="mapas.html">Maps</a> |
+      <a href="formulario.html">Formulario</a>
+    </nav>
+  </header>
+
+  <hr style="border: 2px solid goldenrod; width: 85%;">
+
+  <main>
+    <h2>Form 1: Personal Information</h2>
+    <form action="send.php" method="get" enctype="text/plain">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <!-- Full Name -->
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required size="40" autofocus>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required size="40">
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address">
+        <br><br>
+
+        <!-- Contact number -->
+        <label for="contact">Contact number:</label>
+        <input type="tel" id="contact" name="contact">
+        <br><br>
+
+        <!-- City -->
+        <label for="city">City:</label>
+        <select id="city" name="city">
+          <option value="Pilas" selected>Pilas</option>
+          <option value="Villamanrique">Villamanrique</option>
+          <option value="Aznalcázar">Aznalcázar</option>
+        </select>
+        <br><br>
+
+        <!-- Country -->
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" value="Spain" readonly>
+        <br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+      </fieldset>
+    </form>
+
+    <hr style="border: 1px solid #444; width: 60%;">
+
+    <h2>Form 2: Games Information</h2>
+    <form action="send.php" method="get" enctype="text/plain">
+      <fieldset>
+        <legend>Games Information</legend>
+
+        <!-- Games owned -->
+        <label for="games">Games you own:</label><br>
+        <select id="games" name="games">
+          <optgroup label="Souls Series">
+            <option value="Dark Souls 1">Dark Souls 1</option>
+            <option value="Dark Souls 2">Dark Souls 2</option>
+            <option value="Dark Souls 3">Dark Souls 3</option>
+          </optgroup>
+          <hr>
+          <optgroup label="Other FromSoftware Titles">
+            <option value="Elden Ring">Elden Ring</option>
+            <option value="Demon's Souls">Demon's Souls</option>
+            <option value="Bloodborne">Bloodborne</option>
+          </optgroup>
+        </select>
+        <br><br>
+
+        <!-- Acquisition date -->
+        <label for="acquisition">Acquisition date:</label>
+        <input type="date" id="acquisition" name="acquisition" min="2000-01-01" max="2024-12-31">
+        <br><br>
+
+        <!-- Performance rating -->
+        <label for="performance">Performance rating (1–10):</label>
+        <input type="range" id="performance" name="performance" min="1" max="10">
+        <br><br>
+
+        <!-- Hobbies -->
+        <label>Hobbies and interests:</label><br>
+        <input type="checkbox" id="computers" name="hobbies" value="Computers">
+        <label for="computers">Computers</label>
+        <input type="checkbox" id="education" name="hobbies" value="Education">
+        <label for="education">Education</label>
+        <input type="checkbox" id="mobile" name="hobbies" value="Mobile phones">
+        <label for="mobile">Mobile phones</label>
+        <input type="checkbox" id="gaming" name="hobbies" value="Gaming">
+        <label for="gaming">Gaming</label>
+        <input type="checkbox" id="vr" name="hobbies" value="Virtual reality">
+        <label for="vr">Virtual reality</label>
+        <br><br>
+
+        <!-- Comments -->
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="5" cols="50" maxlength="400"
+          placeholder="Write your thoughts about Dark Souls here..."></textarea>
+        <br><br>
+
+        <!-- File submission -->
+        <label for="files">Upload files:</label>
+        <input type="file" id="files" name="files" multiple>
+        <br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Souls Index 🗺️ | Academic Project DAM</p>
+  </footer>
+</body>
+</html>

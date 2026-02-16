@@ -1,0 +1,261 @@
+body {
+  background-color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5f5f5;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: goldenrod;
+  margin-top: 20px;
+}
+
+h2 {
+  background-color: #222;
+  font-size: 2rem;
+  padding: 10px;
+  border-left: 5px solid goldenrod;
+}
+
+h3 {
+  background-color: #333;
+  color: goldenrod;
+  font-size: 1.5rem;
+  padding: 8px;
+}
+
+p {
+  text-align: justify;
+}
+
+blockquote {
+  font-style: italic;
+  background: #222;
+  padding: 10px 20px;
+  border-left: 5px solid goldenrod;
+  margin: 20px 0;
+}
+
+pre {
+  background-color: #1a1a1a;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 1px solid goldenrod;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+address {
+  font-family: "Courier New", monospace;
+  font-style: normal;
+  text-align: center;
+  background: #222;
+  padding: 10px;
+  border-top: 2px solid goldenrod;
+  margin-top: 30px;
+}
+
+nav a {
+  color: goldenrod;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  background: #000;
+  color: #aaa;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+/* ---- TABLA ---- */
+
+.weapon-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse; 
+  table-layout: fixed;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+}
+
+
+.weapon-table caption {
+  caption-side: top;
+  padding: 10px;
+  font-size: 1.3rem;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+
+.weapon-table thead th {
+  background-color: #333;
+  padding: 10px;
+  border: 1px solid #555;
+  text-align: center;
+}
+
+
+.weapon-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+
+.weapon-table tbody tr:nth-child(odd) {
+  background-color: #181818;
+}
+
+.weapon-table tbody tr:nth-child(even) {
+  background-color: #202020;
+}
+
+
+.weapon-table tbody tr:hover {
+  background-color: #3b2a00;
+  transition: 0.2s;
+}
+
+
+.weapon-table tfoot td {
+  background-color: #222;
+  padding: 8px;
+  text-align: center;
+  border-top: 2px solid goldenrod;
+}
+
+
+/*--Formulario--*/
+
+
+form fieldset {
+  border: 2px solid #b8860b; 
+  border-radius: 12px;
+  padding: 25px;
+  width: 70%;
+  margin: 30px auto;
+  background-color: #111; 
+  box-shadow: 0 0 20px rgba(184, 134, 11, 0.5);
+}
+
+form legend {
+  color: #ffd700;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-bottom: 2px solid #b8860b;
+}
+
+
+form label {
+  font-weight: bold;
+  color: #eee;
+}
+
+
+input,
+select,
+textarea {
+  width: 90%;
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  border: 2px solid #444;
+  border-radius: 8px;
+  border-bottom: 3px solid #b8860b;
+  outline: none;
+  resize: none;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #ffd700;
+  background-color: #222;
+  box-shadow: 0 0 10px #b8860b;
+}
+
+
+textarea::placeholder,
+input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+  width: 40%;
+  background-color: #b8860b;
+  color: #111;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 14px;
+  margin-top: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #b8860b inset, 0 0 10px #ffd700;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #ffd700;
+  color: #111;
+  box-shadow: 0 0 20px #ffd700, 0 0 10px #b8860b inset;
+}
+
+
+input[type="checkbox"] {
+  width: auto;
+  cursor: pointer;
+  accent-color: #b8860b; 
+}
+
+input[type="checkbox"]:checked + label {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+
+input[type="range"] {
+  cursor: pointer;
+  accent-color: #b8860b;
+}
+
+
+input[type="file"] {
+  cursor: pointer;
+  padding: 5px;
+}
+
+
+input:hover,
+textarea:hover,
+select:hover {
+  border-color: #ffd700;
+}
