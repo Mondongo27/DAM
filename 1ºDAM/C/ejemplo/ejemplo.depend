@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1758627545 source:c:\users\usuario\desktop\programacion\codeblocks\ejemplo\main.c
+	<stdio.h>
+	<stdbool.h>
+

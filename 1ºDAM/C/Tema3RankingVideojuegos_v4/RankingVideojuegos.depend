@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1763125133 source:c:\users\usuario\programacion\unidad_03\rankingvideojuegos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1763470954 source:c:\users\usuario\programacion\unidad_03\rankingvideojuegos_v2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1763558260 source:c:\users\usuario\programacion\unidad_03\rankingvideojuegos_v3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1763560319 source:c:\users\usuario\programacion\unidad_03\rankingvideojuegos_v4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1764157264 source:c:\users\usuario\desktop\programacion\codeblocks\tema3rankingvideojuegos_v4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"lvj.h"
+	"juego.h"
+	"lvj.c"
+
+1764079000 c:\users\usuario\desktop\programacion\codeblocks\tema3rankingvideojuegos_v4\ranking.h
+
+1764156840 c:\users\usuario\desktop\programacion\codeblocks\tema3rankingvideojuegos_v4\lvj.h
+	"juego.h"
+
+1764156593 c:\users\usuario\desktop\programacion\codeblocks\tema3rankingvideojuegos_v4\juego.h
+
+1764157264 c:\users\usuario\desktop\programacion\codeblocks\tema3rankingvideojuegos_v4\lvj.c
+	"lvj.h"
+

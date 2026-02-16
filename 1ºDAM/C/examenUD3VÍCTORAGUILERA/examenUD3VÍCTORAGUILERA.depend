@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1765369130 source:c:\users\usuario\desktop\programacion\codeblocks\examenud3vÍctoraguilera\crp.c
+	<stdio.h>
+	<stdlib.h>
+	"crp.h"
+
+1765369991 source:c:\users\usuario\desktop\programacion\codeblocks\examenud3vÍctoraguilera\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"crp.h"
+
+1765366883 c:\users\usuario\desktop\programacion\codeblocks\examenud3vÍctoraguilera\crp.h
+	"producto.h"
+
+1765368706 c:\users\usuario\desktop\programacion\codeblocks\examenud3vÍctoraguilera\producto.h
+	<stdbool.h>
+

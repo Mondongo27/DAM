@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1759838765 source:c:\users\usuario\desktop\programacion\codeblocks\funcionesvariaticas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+

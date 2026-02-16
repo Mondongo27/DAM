@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1763557962 source:c:\users\usuario\desktop\programacion\codeblocks\tema3ranking(version3)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

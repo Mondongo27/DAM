@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1767961520 source:c:\users\usuario\desktop\programacion\codeblocks\tema4ej7clase(examen)\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+

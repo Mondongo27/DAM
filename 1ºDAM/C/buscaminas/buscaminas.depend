@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1761657618 source:c:\users\usuario\desktop\programacion\codeblocks\buscaminas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<time.h>
+

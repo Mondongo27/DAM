@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1763729791 source:c:\users\usuario\desktop\lista basica\main.c
+	"listaint.h"
+
+1763728709 c:\users\usuario\desktop\lista basica\listaint.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1763729839 source:c:\users\usuario\desktop\lista basica\listaint.c
+	"listaint.h"
+
+1764077726 source:c:\users\usuario\desktop\programacion\codeblocks\tema3lista_basica\listaint.c
+	"listaint.h"
+	<limits.h>
+
+1764077185 c:\users\usuario\desktop\programacion\codeblocks\tema3lista_basica\listaint.h
+	<stdlib.h>
+	<stdbool.h>
+
+1764077818 source:c:\users\usuario\desktop\programacion\codeblocks\tema3lista_basica\main.c
+	<stdio.h>
+	<time.h>
+	"listaint.h"
+

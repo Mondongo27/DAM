@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1762515516 source:c:\users\usuario\desktop\programacion\codeblocks\tema3ejercicio8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1762515516 source:c:\users\usuario\desktop\programacion\codeblocks\tema3ejercicio8(maestro)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

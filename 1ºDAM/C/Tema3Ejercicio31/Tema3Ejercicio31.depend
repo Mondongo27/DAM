@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1764852169 source:c:\users\usuario\desktop\programacion\codeblocks\tema3ejercicio31\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1764926903 source:c:\users\usuario\desktop\programacion\codeblocks\tema3ejercicio31\le.c
+	"le.h"
+	<stdlib.h>
+
+1764926886 c:\users\usuario\desktop\programacion\codeblocks\tema3ejercicio31\le.h
+

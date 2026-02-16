@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1768397846 source:c:\users\usuario\desktop\programacion\codeblocks\exament4víctor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+

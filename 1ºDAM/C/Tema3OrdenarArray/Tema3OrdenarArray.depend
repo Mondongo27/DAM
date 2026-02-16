@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1762952954 source:c:\users\usuario\desktop\programacion\codeblocks\tema3ordenararray\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<time.h>
+

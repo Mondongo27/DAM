@@ -1,0 +1,5 @@
+Hola
+Como estas
+Adios
+Esta tiene un salto de linea delante
+Esta con salto y un numero aleatorio: 14

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1763125127 source:c:\users\usuario\desktop\programacion\codeblocks\tema3rankingvideojuegos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1763468628 source:c:\users\usuario\desktop\programacion\codeblocks\tema3rankingvideojuegos(version 1)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

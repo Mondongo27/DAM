@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1764332702 source:c:\users\usuario\desktop\programacion\codeblocks\tema3listavideojuegos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"lvj.h"
+	"proveedorvj.h"
+	"lev.h"
+
+1764577440 c:\users\usuario\desktop\programacion\codeblocks\tema3listavideojuegos\proveedorvj.h
+	"juego.h"
+
+1764159691 c:\users\usuario\desktop\programacion\codeblocks\tema3listavideojuegos\juego.h
+
+1764332322 c:\users\usuario\desktop\programacion\codeblocks\tema3listavideojuegos\lvj.h
+	"juego.h"
+	<stdbool.h>
+
+1764328169 source:c:\users\usuario\desktop\programacion\codeblocks\tema3listavideojuegos\lvj.c
+	"lvj.h"
+	<stdlib.h>
+
+1764159602 source:c:\users\usuario\desktop\programacion\codeblocks\tema3listavideojuegos\proveedorvj.c
+	<stdlib.h>
+	"proveedorvj.h"
+
+1765357215 c:\users\usuario\desktop\programacion\codeblocks\tema3listavideojuegos\lev.h
+	<stdbool.h>
+	"juego.h"
+
+1764768645 source:c:\users\usuario\desktop\programacion\codeblocks\tema3listavideojuegos\lev.c
+	"lev.h"
+	<stdlib.h>
+	<stdbool.h>
+

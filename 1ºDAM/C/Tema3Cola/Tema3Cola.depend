@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1764939330 source:c:\users\usuario\desktop\programacion\codeblocks\tema3cola\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1764938570 source:c:\users\usuario\desktop\programacion\codeblocks\tema3cola\lista.c
+	"lista.h"
+	<stdlib.h>
+	<string.h>
+
+1764939237 c:\users\usuario\desktop\programacion\codeblocks\tema3cola\lista.h
+	"cliente.h"
+	<stdbool.h>
+
+1764933945 c:\users\usuario\desktop\programacion\codeblocks\tema3cola\cliente.h
+

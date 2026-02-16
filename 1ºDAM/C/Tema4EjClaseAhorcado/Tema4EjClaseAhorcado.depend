@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1765971096 source:c:\users\usuario\desktop\programacion\codeblocks\tema4ejclaseahorcado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stdbool.h>
+	<string.h>
+

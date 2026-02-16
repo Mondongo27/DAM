@@ -1,0 +1,2 @@
+2;Bicicleta basica;150.00
+2;Mochila sport;49.99
