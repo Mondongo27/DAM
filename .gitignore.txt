@@ -1,0 +1,10 @@
+# Ignorar carpetas de compilación de CodeBlocks
+bin/
+obj/
+
+# Ignorar archivos de configuración personal
+*.layout
+*.depend
+
+# Ignorar ejecutables
+*.exe
