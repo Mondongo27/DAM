@@ -1,0 +1,3 @@
+public enum DiaSem {
+    LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO;
+}
